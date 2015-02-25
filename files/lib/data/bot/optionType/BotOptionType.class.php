@@ -4,7 +4,7 @@ use wcf\data\DatabaseObject;
 use wcf\system\WCF;
 
 /**
- *
+ * Represents a bot option type
  *
  * @author	Oskar Schaffner
  * @copyright	2013-2014 Oskar Schaffner
