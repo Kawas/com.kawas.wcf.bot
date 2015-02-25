@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.kawas.wcf.bot" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Community Bot</packagename>
+		<packagename language="de">Community Bot</packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[]]></packagedescription>
+		<version>1.0.6</version>
+        <date>2015-02-14</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Kawas</author>
+		<authorurl>http://www.wbb-bot.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.5">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.5">com.woltlab.wcf.conversation</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="packageInstallationPlugin">packageInstallationPlugin.xml</instruction>
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="acpMenu">acpMenu.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="sql">install.sql</instruction>
+		<instruction type="eventListener">eventListener.xml</instruction>	
+		<instruction type="cronjob">cronjob.xml</instruction>	
+		<instruction type="botEvent">botEvent.xml</instruction>
+		<instruction type="botActionType">botActionType.xml</instruction>
+		<instruction type="botOption">botOption.xml</instruction>
+		<instruction type="botActionTemplate">botActionTemplate.xml</instruction>
+		<instruction type="script">acp/install_com.kawas.wcf.bot.php</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.4">
+		<instruction type="file">files.tar</instruction>
+	</instructions>
+    
+	<instructions type="update" fromversion="1.0.3">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+        <instruction type="acpTemplate">acptemplates.tar</instruction>
+	</instructions>
+    
+	<instructions type="update" fromversion="1.0.2">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="botOption">botOption.xml</instruction>
+        <instruction type="acpTemplate">acptemplates.tar</instruction>
+	</instructions>
+	
+
+</package>

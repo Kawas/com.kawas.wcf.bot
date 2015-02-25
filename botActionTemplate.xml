@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<action name="wcf.bot.template.birthydayMessage">
+		  <event>birthdayOfUser</event>
+		  <actiontype>newConversation</actiontype>
+		  <subject>wcf.bot.template.birthydayMessage.subject</subject>
+		  <message>wcf.bot.template.birthydayMessage.message</message>
+		</action>
+		<action name="wcf.bot.template.birthydayProfileComment">
+		  <event>birthdayOfUser</event>
+		  <actiontype>userProfileComment</actiontype>
+		  <message>wcf.bot.template.birthydayProfileComment.message</message>
+		</action>
+		<action name="wcf.bot.template.welcomeMessage">
+		  <event>newUser</event>
+		  <actiontype>newConversation</actiontype>
+		  <subject>wcf.bot.template.welcomeMessage.subject</subject>
+		  <message>wcf.bot.template.welcomeMessage.message</message>
+		</action>
+		<action name="wcf.bot.template.overXLikesMessage">
+		  <event>userHasOverXLikesReceived</event>
+		  <actiontype>newConversation</actiontype>
+		  <likes_received>25</likes_received>
+		  <subject>wcf.bot.template.overXLikesMessage.subject</subject>
+		  <message>wcf.bot.template.overXLikesMessage.message</message>
+		</action>
+		<action name="wcf.bot.template.overXLikesProfileComment">
+		  <event>userHasOverXLikesReceived</event>
+		  <actiontype>userProfileComment</actiontype>
+		  <likes_received>25</likes_received>
+		  <message>wcf.bot.template.overXLikesProfileComment.message</message>
+		</action>
+		<action name="wcf.bot.template.overXActivityPointsMessage">
+		  <event>userHasOverXActivityPoints</event>
+		  <actiontype>newConversation</actiontype>
+		  <activity_points>250</activity_points>
+		  <subject>wcf.bot.template.overXActivityPointsMessage.subject</subject>
+		  <message>wcf.bot.template.overXActivityPointsMessage.message</message>
+		</action>
+		<action name="wcf.bot.template.overXActivityPointsProfileComment">
+		  <event>userHasOverXActivityPoints</event>
+		  <actiontype>userProfileComment</actiontype>
+		  <activity_points>250</activity_points>
+		  <message>wcf.bot.template.overXActivityPointsProfileComment.message</message>
+		</action>
+		<action name="wcf.bot.template.christmasMessage">
+		  <event>yearly</event>
+		  <actiontype>newConversationWithUserGroup</actiontype>
+		  <execution_month>12</execution_month>
+		  <execution_day>25</execution_day>
+		  <group_id>3</group_id>
+		  <subject>wcf.bot.template.christmasMessage.subject</subject>
+		  <message>wcf.bot.template.christmasMessage.message</message>
+		</action>
+	</import>
+</data>

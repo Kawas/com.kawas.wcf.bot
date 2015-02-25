@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/acpMenu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.user.bot">
+			<parent>wcf.acp.menu.link.user</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.user.bot.actionList">
+			<controller><![CDATA[wcf\acp\page\botActionList]]></controller>
+			<parent>wcf.acp.menu.link.user.bot</parent>
+			<permissions>admin.general.bot.canManageBot</permissions>
+			<showorder>1</showorder>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.user.bot.actionAdd">
+			<controller><![CDATA[wcf\acp\form\botActionAdd]]></controller>
+			<parent>wcf.acp.menu.link.user.bot</parent>
+			<permissions>admin.general.bot.canManageBot</permissions>
+			<showorder>2</showorder>
+		</acpmenuitem>
+
+		
+	</import>
+</data>

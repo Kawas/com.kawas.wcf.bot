@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/packageInstallationPlugin.xsd">
+	<import>
+		<pip name="botEvent">wcf\system\package\plugin\BotEventPackageInstallationPlugin</pip>
+		<pip name="botActionType">wcf\system\package\plugin\BotActionTypePackageInstallationPlugin</pip>
+		<pip name="botOption">wcf\system\package\plugin\BotOptionTypePackageInstallationPlugin</pip>
+		<pip name="botActionTemplate">wcf\system\package\plugin\BotActionTemplatePackageInstallationPlugin</pip>
+	</import>
+</data>

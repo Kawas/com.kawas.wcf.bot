@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<!--<event name="test">
+		  <parameters>testParameter</parameters>
+		</event>-->
+		<event name="newUser">
+		  <parameters>user_id,username</parameters>
+		</event>
+		<event name="birthdayOfUser">
+		  <parameters>user_id,username,userage</parameters>
+		</event>
+		<event name="dateX">
+		  <parameters></parameters>
+		</event>
+		<event name="monthly">
+		  <parameters></parameters>
+		</event>
+		<event name="yearly">
+		  <parameters></parameters>
+		</event>
+		<event name="userHasOverXLikesReceived">
+		  <parameters>user_id,username</parameters>
+		</event>
+		<event name="userHasOverXActivityPoints">
+		  <parameters>user_id,username</parameters>
+		</event>
+		<event name="userHasOverXProfileHits">
+		  <parameters>user_id,username</parameters>
+		</event>
+		<event name="userIsMemberXDays">
+		  <parameters>user_id,username</parameters>
+		</event>
+		<event name="userIsInactiveXDays">
+		  <parameters>user_id,username</parameters>
+		</event>
+	</import>
+</data>

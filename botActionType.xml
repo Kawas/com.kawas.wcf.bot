@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<actiontype name="newConversation">
+		  <classname>wcf\system\bot\action\type\NewConversationBotActionType</classname>
+		</actiontype>
+		<actiontype name="newConversationWithUserGroup">
+		  <classname>wcf\system\bot\action\type\NewConversationWithUserGroupActionType</classname>
+		</actiontype>
+		<actiontype name="userProfileComment">
+		  <classname>wcf\system\bot\action\type\UserProfileCommentBotActionType</classname>
+		</actiontype>
+		<actiontype name="addUserToGroup">
+		  <classname>wcf\system\bot\action\type\AddUserToGroupBotActionType</classname>
+		</actiontype>
+		<actiontype name="deleteUser">
+		  <classname>wcf\system\bot\action\type\UserBotActionType</classname>
+		  <risky>1</risky>
+		</actiontype>
+		<actiontype name="user">
+		  <classname>wcf\system\bot\action\type\UserBotActionType</classname>
+		</actiontype>
+		<actiontype name="SendMailToUser">
+		  <classname>wcf\system\bot\action\type\SendMailToUserBotActionType</classname>
+		</actiontype>
+	</import>
+</data>

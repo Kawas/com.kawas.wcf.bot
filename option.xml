@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="user.bot">
+				<parent>user</parent>
+			</category>
+			<category name="user.bot.userdata">
+				<parent>user.bot</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="user.bot.security">
+				<parent>user.bot</parent>
+				<showorder>2</showorder>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="wcf_module_bot">
+				<categoryname>module.user</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="wcf_bot_userID">
+				<categoryname>user.bot.userdata</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="wcf_bot_username">
+				<categoryname>user.bot.userdata</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="wcf_bot_security_mode_disabled">
+				<categoryname>user.bot.security</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions>wcf_bot_max_execution_time,wcf_bot_debug_mode</enableoptions>
+				<showorder>1</showorder>
+			</option>	
+			<option name="wcf_bot_max_execution_time">
+				<categoryname>user.bot.security</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>7000</defaultvalue>
+				<showorder>2</showorder>
+			</option>	
+			<option name="wcf_bot_debug_mode">
+				<categoryname>user.bot.security</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>	
+			<option name="wcf_bot_install_date">
+				<categoryname>user.bot.security</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue></defaultvalue>
+				<hidden>1</hidden>
+			</option>	
+		</options>
+	</import>
+</data>

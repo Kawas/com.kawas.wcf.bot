@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<!-- newConversation -->
+		<option name="user_id">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="subject">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>textI18n</optionType>
+		  <showOrder>2</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="message">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>textareaI18n</optionType>
+		  <showOrder>3</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="enable_bbcodes">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>4</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_smilies">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>5</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="show_signature">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>6</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_html">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>7</showOrder>
+		  <default>0</default>
+		</option>
+		<option name="leave_conversation">
+		  <actionTypeName>newConversation</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>8</showOrder>
+		  <default>0</default>
+		</option>
+		
+		<!-- newConversationWithUserGroup -->
+		<option name="group_id">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>userGroup</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="participants_visibility">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>2</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="subject">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>textI18n</optionType>
+		  <showOrder>3</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="message">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>textareaI18n</optionType>
+		  <showOrder>4</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="enable_bbcodes">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>5</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_smilies">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>6</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="show_signature">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>7</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_html">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>8</showOrder>
+		  <default>0</default>
+		</option>
+		<option name="leave_conversation">
+		  <actionTypeName>newConversationWithUserGroup</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>9</showOrder>
+		  <default>0</default>
+		</option>
+		
+		<!-- userProfileComment -->
+		<option name="user_id">
+		  <actionTypeName>userProfileComment</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="message">
+		  <actionTypeName>userProfileComment</actionTypeName>
+		  <optionType>textareaI18n</optionType>
+		  <showOrder>2</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		
+		<!-- addUserToGroup -->
+		<option name="user_id">
+		  <actionTypeName>addUserToGroup</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="group_id">
+		  <actionTypeName>addUserToGroup</actionTypeName>
+		  <optionType>userGroup</optionType>
+		  <showOrder>2</showOrder>
+		</option>
+		
+		<!-- dateX -->
+		<option name="execution_date">
+		  <eventName>dateX</eventName>
+		  <optionType>date</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- monthly -->
+		<option name="execution_day">
+		  <eventName>monthly</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- yearly -->
+		<option name="execution_month">
+		  <eventName>yearly</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="execution_day">
+		  <eventName>yearly</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>2</showOrder>
+		</option>
+		
+		<!-- userHasOverXLikesReceived -->
+		<option name="likes_received">
+		  <eventName>userHasOverXLikesReceived</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="dislikes">
+		  <eventName>userHasOverXLikesReceived</eventName>
+		  <optionType>boolean</optionType>
+		  <default>0</default>
+		  <showOrder>2</showOrder>
+		  <hidden>1</hidden>
+		</option>
+		
+		<!-- userHasOverXActivityPoints -->
+		<option name="activity_points">
+		  <eventName>userHasOverXActivityPoints</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- userHasOverXProfileHits -->
+		<option name="profile_hits">
+		  <eventName>userHasOverXProfileHits</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- userIsMemberXDays -->
+		<option name="days">
+		  <eventName>userIsMemberXDays</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- userIsInactiveXDays -->
+		<option name="days">
+		  <eventName>userIsInactiveXDays</eventName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		
+		<!-- deleteUser -->
+		<option name="user_id">
+		  <actionTypeName>deleteUser</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="action_name">
+		  <actionTypeName>deleteUser</actionTypeName>
+		  <optionType>text</optionType>
+		  <default>delete</default>
+		  <hidden>1</hidden>
+		  <showOrder>2</showOrder>
+		</option>
+
+		<!-- user -->
+		<option name="user_id">
+		  <actionTypeName>user</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="action_name">
+		  <actionTypeName>user</actionTypeName>
+		  <optionType>select</optionType>
+		  <default>ban</default>
+		  <selectoptions><![CDATA[ban:wcf.acp.user.ban
+unban:wcf.acp.user.unban
+disable:wcf.acp.user.disable
+enabale:wcf.acp.user.enable]]></selectoptions>
+		  <showOrder>2</showOrder>
+		</option>
+
+		<!-- SendMailToUser -->
+		<option name="user_id">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>integer</optionType>
+		  <showOrder>1</showOrder>
+		</option>
+		<option name="subject">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>textI18n</optionType>
+		  <showOrder>2</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="message">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>textareaI18n</optionType>
+		  <showOrder>3</showOrder>
+		  <supportI18n>1</supportI18n>
+		</option>
+		<option name="enable_bbcodes">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>4</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_smilies">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>5</showOrder>
+		  <default>1</default>
+		</option>
+		<option name="enable_html">
+		  <actionTypeName>SendMailToUser</actionTypeName>
+		  <optionType>boolean</optionType>
+		  <showOrder>6</showOrder>
+		  <default>0</default>
+		</option>
+
+	</import>
+	
+</data>

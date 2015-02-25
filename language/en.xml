@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.user.bot"><![CDATA[Bot]]></item>
+		<item name="wcf.acp.menu.link.user.bot.actionList"><![CDATA[Actions]]></item>
+		<item name="wcf.acp.menu.link.user.bot.actionAdd"><![CDATA[Add action]]></item>
+  </category>
+  
+  <category name="wcf.acp.bot">
+    <item name="wcf.acp.bot.action.list"><![CDATA[Action]]></item>
+    <item name="wcf.acp.bot.action.add"><![CDATA[Add action]]></item>
+    <item name="wcf.acp.bot.action.edit"><![CDATA[Edit action]]></item>
+    <item name="wcf.acp.bot.action.general"><![CDATA[Common]]></item>
+    <item name="wcf.acp.bot.action.name"><![CDATA[Name of action]]></item>
+    <item name="wcf.acp.bot.action.eventChoose"><![CDATA[Choose event]]></item>
+    <item name="wcf.acp.bot.action.event"><![CDATA[Name of Event]]></item>
+    <item name="wcf.acp.bot.action.useEventParameters"><![CDATA[Use event parameters]]></item>
+    <item name="wcf.acp.bot.action.typeChoose"><![CDATA[Choose the actiontyp]]></item>
+    <item name="wcf.acp.bot.action.type"><![CDATA[Name of actiontyp]]></item>
+    
+    <item name="wcf.acp.bot.actionList.sure"><![CDATA[Do you really want to delete the action?]]></item>
+    
+    <item name="wcf.acp.bot.action.options"><![CDATA[Options]]></item>
+    <item name="wcf.acp.bot.action.option.user_id"><![CDATA[User ID]]></item>
+    <item name="wcf.acp.bot.action.option.subject"><![CDATA[Subject]]></item>
+    <item name="wcf.acp.bot.action.option.message"><![CDATA[Message]]></item>
+    <item name="wcf.acp.bot.action.option.enable_bbcodes"><![CDATA[Enable BBCodes]]></item>
+    <item name="wcf.acp.bot.action.option.enable_bbcodes.description"><![CDATA[Allows BBCode usage once enabled.]]></item>
+    <item name="wcf.acp.bot.action.option.enable_smilies"><![CDATA[Enable smilies]]></item>
+    <item name="wcf.acp.bot.action.option.enable_smilies.description"><![CDATA[Smilies will be displayed as a smiley-image.]]></item>
+    <item name="wcf.acp.bot.action.option.show_signature"><![CDATA[Show signature]]></item>
+    <item name="wcf.acp.bot.action.option.show_signature.description"><![CDATA[Appends signature to this message.]]></item>
+    <item name="wcf.acp.bot.action.option.enable_html"><![CDATA[Enable HTML]]></item>
+    <item name="wcf.acp.bot.action.option.enable_html.description"><![CDATA[Allows HTML usage once enabled.]]></item>
+    <item name="wcf.acp.bot.action.option.execution_date"><![CDATA[Date of execution]]></item>
+    <item name="wcf.acp.bot.action.option.execution_month"><![CDATA[Month of execution]]></item>
+    <item name="wcf.acp.bot.action.option.execution_day"><![CDATA[Day of execution]]></item>
+    <item name="wcf.acp.bot.action.option.group_id"><![CDATA[Usergroup]]></item>
+    <item name="wcf.acp.bot.action.option.participants_visibility"><![CDATA[Participants are visibility]]></item>
+    <item name="wcf.acp.bot.action.option.likes_received"><![CDATA[Likes]]></item>
+	<item name="wcf.acp.bot.action.option.invert_likes"><![CDATA[Count negative likes]]></item>
+    <item name="wcf.acp.bot.action.option.activity_points"><![CDATA[Points]]></item>
+    <item name="wcf.acp.bot.action.option.profile_hits"><![CDATA[Provile hits]]></item>
+    <item name="wcf.acp.bot.action.option.days"><![CDATA[Days]]></item>
+    <item name="wcf.acp.bot.action.option.leave_conversation"><![CDATA[Leave conversation]]></item>
+   
+    <item name="wcf.acp.bot.event.test"><![CDATA[Testevent]]></item>
+    <item name="wcf.acp.bot.event.test.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.event.newUser"><![CDATA[New User]]></item>
+    <item name="wcf.acp.bot.event.newUser.description"><![CDATA[Executed when a new user registers]]></item>
+    <item name="wcf.acp.bot.event.birthdayOfUser"><![CDATA[Birthday of user]]></item>
+    <item name="wcf.acp.bot.event.birthdayOfUser.description"><![CDATA[Executed when a member's birthday]]></item>
+    <item name="wcf.acp.bot.event.dateX"><![CDATA[Execute on date X]]></item>
+    <item name="wcf.acp.bot.event.dateX.description"><![CDATA[Execution on user specific date]]></item>
+    <item name="wcf.acp.bot.event.monthly"><![CDATA[Monthly execution]]></item>
+    <item name="wcf.acp.bot.event.monthly.description"><![CDATA[Excution every mounth on user specific day]]></item>
+    <item name="wcf.acp.bot.event.yearly"><![CDATA[Yearly execution]]></item>
+    <item name="wcf.acp.bot.event.yearly.description"><![CDATA[Excution every year on user specific date]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXLikesReceived"><![CDATA[User has Over X likes received]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXLikesReceived.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXActivityPoints"><![CDATA[User has Over X points]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXActivityPoints.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXProfileHits"><![CDATA[User has Over X profile hits]]></item>
+    <item name="wcf.acp.bot.event.userHasOverXProfileHits.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.event.userIsMemberXDays"><![CDATA[User is member X days]]></item>
+    <item name="wcf.acp.bot.event.userIsMemberXDays.description"><![CDATA[]]></item>
+	<item name="wcf.acp.bot.event.userIsInactiveXDays"><![CDATA[User is inactive x days]]></item>
+	<item name="wcf.acp.bot.event.userIsInactiveXDays.description"><![CDATA[]]></item>
+   
+    <item name="wcf.acp.bot.action.type.newConversation"><![CDATA[Start new conversation]]></item>
+    <item name="wcf.acp.bot.action.type.newConversation.description"><![CDATA[Starts a conversation with a user]]></item>
+    <item name="wcf.acp.bot.action.type.newConversationWithUserGroup"><![CDATA[Start new conversation with usergroup]]></item>
+    <item name="wcf.acp.bot.action.type.newConversationWithUserGroup.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.action.type.userProfileComment"><![CDATA[Create comment on wall]]></item>
+    <item name="wcf.acp.bot.action.type.userProfileComment.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.action.type.addUserToGroup"><![CDATA[Add user to usergroup]]></item>
+    <item name="wcf.acp.bot.action.type.addUserToGroup.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.action.type.deleteUser"><![CDATA[Delete user]]></item>
+    <item name="wcf.acp.bot.action.type.deleteUser.description"><![CDATA[]]></item>
+    <item name="wcf.acp.bot.action.type.SendMailToUser"><![CDATA[Send E-Mail]]></item>
+    <item name="wcf.acp.bot.action.type.SendMailToUser.description"><![CDATA[Sends a E-Mail to a User]]></item>
+	<item name="wcf.acp.bot.action.type.user"><![CDATA[Useraction]]></item>
+	<item name="wcf.acp.bot.action.type.user.description"><![CDATA[User-related action such as ban a user]]></item>
+    
+    <item name="wcf.acp.bot.notEnabled"><![CDATA[The Community Bot is currently not active either you have turned off in the <a href="{link controller='Option' id='1'}{/link}">options</a> under the >Modules → User → User< the Community Bot or not entered in >User → Community Bot → Userdata< no user data.]]></item>
+   </category>
+   
+   
+	<category name="wcf.acp.option">
+    <item name="wcf.acp.option.category.user.bot"><![CDATA[Community Bot]]></item>
+		<item name="wcf.acp.option.category.user.bot.userdata"><![CDATA[Userdata]]></item>
+		<item name="wcf.acp.option.category.user.bot.security"><![CDATA[Security]]></item>
+		<item name="wcf.acp.option.wcf_bot_userID"><![CDATA[User ID]]></item>
+		<item name="wcf.acp.option.wcf_bot_username"><![CDATA[Username]]></item>
+		<item name="wcf.acp.option.wcf_module_bot"><![CDATA[Community Bot]]></item>
+		<item name="wcf.acp.option.wcf_bot_security_mode_disabled"><![CDATA[Deactived securitymode]]></item>
+		<item name="wcf.acp.option.wcf_bot_security_mode_disabled.description"><![CDATA[The securitymode disables riskant action types and limits some function. Only experienced users should disable the security mode.]]></item>
+		<item name="wcf.acp.option.wcf_bot_debug_mode"><![CDATA[Debug Modus]]></item>
+		<item name="wcf.acp.option.wcf_bot_debug_mode.description"><![CDATA[Only for developers, activates multiply execution of actions. Enable not in productive use!]]></item>
+		<item name="wcf.acp.option.wcf_bot_max_execution_time"><![CDATA[Max execution time]]></item>
+		<item name="wcf.acp.option.wcf_bot_max_execution_time.description"><![CDATA[Incorrect input may cause errors.]]></item>
+	</category>
+   
+   <category name="wcf.acp.group">
+    <item name="wcf.acp.group.option.category.admin.general.bot"><![CDATA[Bot]]></item>
+    <item name="wcf.acp.group.option.admin.general.bot.canManageBot"><![CDATA[Can manage bot]]></item>
+   </category>
+   
+	<category name="wcf.bot.template">
+		<item name="wcf.bot.template.birthydayMessage"><![CDATA[Birthdaymessage]]></item>
+		<item name="wcf.bot.template.birthydayMessage.subject"><![CDATA[Happy Birthday {USERNAME}]]></item>
+		<item name="wcf.bot.template.birthydayMessage.message"><![CDATA[Hi {USERNAME},
+the team of {PAGE_TITLE} wishes you all the best to your {USERAGE}. Birthday.]]></item>
+		<item name="wcf.bot.template.birthydayProfileComment"><![CDATA[Birthdayprofilecomment]]></item>
+		<item name="wcf.bot.template.birthydayProfileComment.message"><![CDATA[the team of {PAGE_TITLE} wishes you all the best to your {USERAGE}. Birthday.]]></item>
+		<item name="wcf.bot.template.welcomeMessage"><![CDATA[Welcomemessage]]></item>
+		<item name="wcf.bot.template.welcomeMessage.subject"><![CDATA[Welcome]]></item>
+		<item name="wcf.bot.template.welcomeMessage.message"><![CDATA[Hi {USERNAME},
+welcome to {PAGE_TITLE}.]]></item>
+		<item name="wcf.bot.template.christmasMessage"><![CDATA[Christmasmessage]]></item>
+		<item name="wcf.bot.template.christmasMessage.subject"><![CDATA[Merry christmas]]></item>
+		<item name="wcf.bot.template.christmasMessage.message"><![CDATA[Hi community members,
+the team of {PAGE_TITLE} wishes you a merry christmas.]]></item>
+		<item name="wcf.bot.template.overXLikesMessage"><![CDATA[Gratulation message to X likes]]></item>
+		<item name="wcf.bot.template.overXLikesMessage.subject"><![CDATA[Gratulations on your {LIKES_RECEIVED}. preserved like]]></item>
+		<item name="wcf.bot.template.overXLikesMessage.message"><![CDATA[Hi {USERNAME},
+gratulations on your {LIKES_RECEIVED}. preserved like.]]></item>
+		<item name="wcf.bot.template.overXLikesProfileComment"><![CDATA[Gratulation profile comment to X likes]]></item>
+		<item name="wcf.bot.template.overXLikesProfileComment.message"><![CDATA[Hi {USERNAME},
+gratulations on your {LIKES_RECEIVED}. preserved like.]]></item>
+		<item name="wcf.bot.template.overXActivityPointsMessage"><![CDATA[Gratulation message to X activity points]]></item>
+		<item name="wcf.bot.template.overXActivityPointsMessage.subject"><![CDATA[Gratulations on your {ACTIVITY_POINTS}. preserved activity point]]></item>
+		<item name="wcf.bot.template.overXActivityPointsMessage.message"><![CDATA[Hi {USERNAME},
+gratulations on your {ACTIVITY_POINTS}. preserved activity point.]]></item>
+		<item name="wcf.bot.template.overXActivityPointsProfileComment"><![CDATA[Gratulation profile comment to X activity points]]></item>
+		<item name="wcf.bot.template.overXActivityPointsProfileComment.message"><![CDATA[Hi {USERNAME},
+gratulations on your {ACTIVITY_POINTS}. preserved activity points.]]></item>
+	</category>
+</language>
